@@ -36,7 +36,8 @@ module.exports = function (eleventyConfig) {
   // Collections
 
   // Passthrough
-  eleventyConfig.addPassthroughCopy({ './app/admin': '.' })
+  eleventyConfig.addPassthroughCopy('./app/documents')
+  eleventyConfig.addPassthroughCopy('./admin');
   eleventyConfig.addPassthroughCopy({ './app/images': '.' })
   eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/govuk/assets': 'assets' })
 
