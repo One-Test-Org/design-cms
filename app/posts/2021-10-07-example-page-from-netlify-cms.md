@@ -17,4 +17,4 @@ Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi
 
 #### That's it!!
 
-![This is an image](/images/uploads/screenshot-2021-09-30-at-13.05.21.png "Example 'Design History'")
+![This is an image](/images/uploads/screenshot-2021-09-30-at-13.14.47.png "Example 'Design History'")
