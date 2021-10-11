@@ -32,3 +32,5 @@ Read our guide on how to [set up a design history](https://design-history.heroku
 ## Technical notes
 
 The design history uses the [GOV.UK Design System](https://design-system.service.gov.uk) and the [Eleventy](https://www.11ty.dev) static site generator.
+
+The CMS behind is standard Netlify CMS deployed as per the netlifycms.org documentation.
