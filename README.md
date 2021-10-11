@@ -1,10 +1,12 @@
-# Design history for GOV.UK services
+# Design history for GOV.UK services with an experimental CMS backend
 
 A place for you to document your GOV.UK service designs.
 
-<https://design-history.herokuapp.com>
+<https://dfe-design-history-cms.netlify.app>
 
 ## Purpose of this project
+
+This is an addition to the project started below, the purpose is to add Netlify CMS on top of the Design History app.
 
 This repository makes it easy to:
 
