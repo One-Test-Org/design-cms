@@ -17,4 +17,3 @@ Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad mi
 
 #### That's it!!
 
-![This is a test image](screenshot-2021-09-30-at-13.14.47.png "Example 'Design History'")
