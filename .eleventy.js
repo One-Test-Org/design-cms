@@ -1,10 +1,6 @@
 module.exports = function (eleventyConfig) {
   // Browser Sync
   eleventyConfig.setBrowserSyncConfig({
-    rewriteRules: [{
-      match: /\/image\/(\d+)(x)?(\d+)?/g,
-      replace: '/images'
-    }],
     serveStatic: ['public'],
     serveStaticOptions: {
       extensions: ['html']
@@ -38,7 +34,7 @@ module.exports = function (eleventyConfig) {
   // Passthrough
   eleventyConfig.addPassthroughCopy('./app/documents')
   eleventyConfig.addPassthroughCopy('./admin');
-  eleventyConfig.addPassthroughCopy({ './app/images': '.' })
+   
   eleventyConfig.addPassthroughCopy({ 'node_modules/govuk-frontend/govuk/assets': 'assets' })
 
   // Enable data deep merge
