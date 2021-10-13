@@ -18,9 +18,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Related", name: "related", widget: "object"}
-        - { label: "Text", name: "text", widget: "string" }
-        - { label: "Href", name: "link", widget: "string" }
-        - { label: "Text", name: "text", widget: "string" }
-        - { label: "Href", name: "link", widget: "string" }
+      - { label: "Related", name: "related", widget: "object" }
+      - { label: "Text", name: "text", widget: "string" }
+      - { label: "Href", name: "link", widget: "string" }
+      - { label: "Text", name: "text", widget: "string" }
+      - { label: "Href", name: "link", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
