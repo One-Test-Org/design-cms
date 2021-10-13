@@ -24,6 +24,7 @@ collections:
           widget: "object",
           summary: "{{fields.text}}: {{fields.link}}",
         }
-      - { label: "Text", name: "text", widget: "string" }
-      - { label: "Href", name: "link", widget: "string" }
+      fields:
+        - { label: "Text", name: "text", widget: "string" }
+        - { label: "Href", name: "link", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
