@@ -1,7 +1,9 @@
 ---
 title: Example page from Netlify CMS
 description: This is a test page to verify that the CMS is working
-date: 2021-10-07T10:33:17.710Z
+date: 2021-10-13T13:52:29.557Z
+text: Link
+link: https://www.netlifycms.org/docs/widgets/#relation
 ---
 **Lorem ipsum text.**
 
