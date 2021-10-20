@@ -37,8 +37,8 @@ node scripts/generate.js example-post
 
 If you print preview a design history post you’ll see that each screenshot is given its own page.
 
-![](public/01-design-history-index.png)
+![](/01-design-history-index.png)
 
-![](public/02-search-results.png)
+![](/02-search-results.png)
 
-![](public/03-a-design-history-post.png)
+![](/03-a-design-history-post.png)
