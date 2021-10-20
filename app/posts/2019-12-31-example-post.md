@@ -1,19 +1,20 @@
 ---
 title: An example post with screenshots
-description: This example was generated using a script and shows how to use the screenshots macro.
+description: This example was generated using a script and shows how to use the
+  screenshots macro.
 date: 2019-12-31
 screenshots:
   items:
     - text: Design history index
       src: 01-design-history-index.png
-      caption: |
-        You can include captions with each image, and each caption can include markdown. This is a screenshot of the [index page](/).
+      caption: >
+        You can include captions with each image, and each caption can include
+        markdown. This is a screenshot of the [index page](/).
     - text: Search results
       src: 02-search-results.png
     - text: A design history post
       src: 03-a-design-history-post.png
 ---
-
 This is an example of a standard design history post – it begins with a preamble about the design and ends with a list of screenshots.
 
 Some real examples are:
@@ -35,3 +36,9 @@ node scripts/generate.js example-post
 ## You can print this page
 
 If you print preview a design history post you’ll see that each screenshot is given its own page.
+
+![](public/01-design-history-index.png)
+
+![](public/02-search-results.png)
+
+![](public/03-a-design-history-post.png)
