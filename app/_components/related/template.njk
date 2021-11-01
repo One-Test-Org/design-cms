@@ -8,7 +8,7 @@
           <a class="govuk-link" href="{{ item.href }}">{{ item.text }}</a>
         </h3>
         {% if item.description %}
-        <p class="app-related__list-item-description">{{ item.description | markdown("inline") | safe }}</p>
+          <p class="app-related__list-item-description">{{ item.description | markdown("inline") | safe }}</p>
         {% endif %}
       </li>
     {% endfor %}
