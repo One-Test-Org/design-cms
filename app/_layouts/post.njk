@@ -28,13 +28,10 @@
       {% endfor %}
     </div>
 
-    {% if related %}
-    <div class="govuk-grid-column-one-third">
-      {{ appRelated({
-        title: related.title or "Related links",
-        items: related.items
-      }) }}
-    </div>
+    {% if relatedLinks %}
+      <div class="govuk-grid-column-one-third">
+        {% include "components/related/template.njk" %}
+      </div>
     {% endif %}
   </div>
   {% endcall %}
