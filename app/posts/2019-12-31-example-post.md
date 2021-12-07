@@ -14,6 +14,9 @@ screenshots:
       src: 02-search-results.png
     - text: A design history post
       src: 03-a-design-history-post.png
+related:
+  - text: Example
+    href: http://example.com
 ---
 This is an example of a standard design history post – it begins with a preamble about the design and ends with a list of screenshots.
 
