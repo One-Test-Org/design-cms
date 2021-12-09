@@ -2,7 +2,7 @@
   <h2 class="govuk-heading-s govuk-!-margin-bottom-2" id="related-links-title">Related links</h2>
   <nav role="navigation" aria-labelledby="related-links-title">
     <ul class="app-related__list">
-    {% for item in relatedLinks.items %}
+    {% for item in params.items %}
       <li class="app-related__list-item">
         <h3 class="app-related__list-item-title">
           <a class="govuk-link" href="{{ item.href }}">{{ item.text }}</a>
