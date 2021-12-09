@@ -2,7 +2,9 @@
 title: CMS post with related links
 description: This is an example post via the Netlify CMS using 2 related links.
 date: 2021-12-09T09:54:19.056Z
-related: []
+related:
+  - text: Search Engine
+    href: https://google.com
 ---
 # Accessing your birth records
 
