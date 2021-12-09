@@ -32,16 +32,15 @@
             <div class="govuk-grid-column-one-third">
               {{ appRelated({
                 title: related.title or "Related links",
-                items: relatedLinks.items
+                items: related.items
               }) }}
             </div>
  {% endif %}
-
-{% if relatedLinks %}
+    {% if relatedLinks %}
       <div class="govuk-grid-column-one-third">
         {% include "components/related/template.njk" %}
       </div>
-  {% endif %}
+    {% endif %}
   </div>
   {% endcall %}
 {% endblock %}
