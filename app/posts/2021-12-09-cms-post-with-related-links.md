@@ -3,12 +3,10 @@ title: CMS post with related links
 description: This is an example post via the Netlify CMS using 2 related links.
 date: 2021-12-09T09:54:19.056Z
 related:
-  - text: Example
-    href: http://example.com
-  - text: GOV.UK website
-    href: https://gov.uk
+  - text: Search Engine
+    href: https://google.com
 ---
-# Accessing your birth records
+## Accessing your birth records
 
 You can access your birth records if you don’t have them because you were adopted.
 
