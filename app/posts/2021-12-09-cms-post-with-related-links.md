@@ -6,7 +6,7 @@ related:
   - text: Search Engine
     href: https://google.com
 ---
-# Accessing your birth records
+## Accessing your birth records
 
 You can access your birth records if you don’t have them because you were adopted.
 
