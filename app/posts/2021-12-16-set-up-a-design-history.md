@@ -2,12 +2,7 @@
 title: Set up a design history
 description: Learn how to install, customise and publish your design history.
 date: 2020-01-03
-relatedLinks:
-  items:
-    - text: GOV.UK Design History on GitHub
-      href: https://github.com/dfe-digital/govuk-design-history
-    - text: Eleventy documentation
-      href: https://www.11ty.dev/docs/
+relatedLinks: {}
 ---
 
 This project makes it easy to:
