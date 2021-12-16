@@ -30,9 +30,9 @@
 
 {% if relatedLinks %}
             <div class="govuk-grid-column-one-third">
-              {{ appRelated({
-                items: relatedLinks.items
-              }) }}
+              {% call appRelated({
+               items: relatedLinks.items
+              }) %}
             </div>
  {% endif %}
    
