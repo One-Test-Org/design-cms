@@ -44,4 +44,4 @@ If you hook up Netlify CMS to your website, you're basically adding a tool for c
 * Ask questions and share ideas in the Netlify CMS [community chat](https://netlifycms.org/chat).
 * Get involved in new developments and become a [contributor](https://www.netlifycms.org/docs/contributor-guide/).
 
-![A Screenshot from the CMS](/public/screenshot-2021-12-16-at-23.10.13.png "A Screenshot from the CMS")
+![A Screenshot from the CMS](/screenshot-2021-12-16-at-23.10.13.png "A Screenshot from the CMS")
