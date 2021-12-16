@@ -2,7 +2,6 @@
 title: Set up a design history
 description: Learn how to install, customise and publish your design history.
 date: 2020-01-03
-relatedLinks: {}
 ---
 
 This project makes it easy to:
