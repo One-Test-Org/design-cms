@@ -28,13 +28,12 @@
       {% endfor %}
     </div>
 
-{% if relatedLinks %}
             <div class="govuk-grid-column-one-third">
-              {{ call appRelated({
+              {% call appRelated({
                items: relatedLinks.items
-            }) }}
+            }) %}
             </div>
- {% endif %}
+
    
   </div>
   {% endcall %}
