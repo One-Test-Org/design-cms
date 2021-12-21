@@ -2,7 +2,7 @@
 tags: false
 layout: collection
 title: Old posts
-description: A separate section to use in your design history.
+description: A collection of posts to guide you how to build a design history.
 pagination:
   data: collections.old-posts
   reverse: true

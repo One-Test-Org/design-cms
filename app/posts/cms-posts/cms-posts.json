@@ -1,6 +1,12 @@
 {
+  "layout": "post",
+  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
   "tags": ["cms-posts"],
-  "eleventyNavigation": {
-    "parent": "CMS Pages"
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "parent":"CMS Posts",
+      "key": "{{ title }}",
+      "excerpt": "{{ description }}"
+    }
   }
 }

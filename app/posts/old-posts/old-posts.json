@@ -1,6 +1,12 @@
 {
+  "layout": "post",
+  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
   "tags": ["old-posts"],
-  "eleventyNavigation": {
-    "parent": "Old Pages"
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "parent":"Old Posts",
+      "key": "{{ title }}",
+      "excerpt": "{{ description }}"
+    }
   }
 }
