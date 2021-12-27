@@ -1,0 +1,6 @@
+{
+  "tags": ["cms-posts"],
+    "eleventyNavigation": {
+      "parent":"CMS Posts"
+    }
+  }

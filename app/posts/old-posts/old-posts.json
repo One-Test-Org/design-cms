@@ -1,0 +1,6 @@
+{
+  "tags": ["old-posts"],
+    "eleventyNavigation": {
+      "parent":"Old Posts"
+    }
+  }
