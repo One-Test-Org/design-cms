@@ -1,5 +1,4 @@
 ---
-tags: false
 layout: collection
 title: Old posts
 description: A collection of posts to guide you how to build a design history.
@@ -8,9 +7,12 @@ pagination:
   reverse: true
   size: 50
 permalink: "old-posts/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
+override:tags:
+  - post
 eleventyComputed:
   eleventyNavigation:
     key: "{{ title }}"
     excerpt: "{{ description }}"
     parent: home
+    order: 2
 ---
