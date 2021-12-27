@@ -1,6 +1,6 @@
 {
   "layout": "post",
-  "permalink": "{{ page.filePathStem | replace('posts/', '') }}/",
+  "permalink": "{{ page.filePathStem | replace('cms-posts/', '') }}/",
   "tags": ["cms-posts"],
   "eleventyComputed": {
     "eleventyNavigation": {
