@@ -1,0 +1,10 @@
+{
+  "layout": "post",
+  "permalink": "{{ page.filePathStem | replace('blog/', '') }}/",
+  "tags": ["blog"],
+  "eleventyComputed": {
+    "eleventyNavigation": {
+      "key": "{{ title }}"
+    }
+  }
+}
