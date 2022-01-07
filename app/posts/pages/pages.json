@@ -1,6 +1,6 @@
 {
-  "layout": "post",
-  "permalink": "{{ page.filePathStem | replace('pages/', '') }}/",
+  "layout": "page",
+  "permalink": "{{ page.filePathStem | replace('posts/pages/', '') }}/",
   "tags": ["pages"],
   "eleventyComputed": {
     "eleventyNavigation": {
