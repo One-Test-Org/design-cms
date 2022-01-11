@@ -4,7 +4,7 @@ layout: collection
 title: Blog Posts
 description: A collection of posts created using Markdown and VScode
 pagination:
-  data: collections.posts.blog
+  data: collections.blog
   reverse: true
   size: 50
 permalink: "blog/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber + 1 }}{% endif %}/"
