@@ -12,6 +12,7 @@
 {% if description %}<meta property="og:description" name="description" content="{{ description | markdown("inline") | striptags(true) }}">{% endif %}
 <meta property="og:image" content="/images/opengraph-image.png">
 <meta name="robots" content="noindex nofollow">
+<script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 {% endblock %}
 
 {% block pageTitle %}
@@ -54,6 +55,7 @@
   {% block scripts %}
     <script src="/javascripts/govuk-frontend.js"></script>
     <script src="/javascripts/application.js"></script>
+
     <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {
@@ -65,6 +67,7 @@
     });
   }
 </script>
+
     {% block pageScripts %}{% endblock %}
   {% endblock %}
 {% endblock %}
