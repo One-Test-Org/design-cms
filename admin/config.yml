@@ -11,7 +11,7 @@ publish_mode: editorial_workflow
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "app/posts" # The path to the folder where the documents are stored
+    folder: "app/posts/blog" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -33,7 +33,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
-    folder: "app/posts" # The path to the folder where the documents are stored
+    folder: "app/posts/pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
