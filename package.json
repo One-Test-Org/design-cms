@@ -10,11 +10,11 @@
     "DfE",
     "11ty"
   ],
-  "author": "Design History CMS",
+  "author": "Nikolaos Gkionis",
   "license": "MIT",
   "homepage": "https://dfe-digital-cms.netlify.app/",
-  "repository": "https://github.com/DfE-Digital/design-history-cms",
-  "bugs": "https://github.com/DfE-Digital/design-history-cms/issues",
+  "repository": "https://github.com/One-Test-Org/design-cms",
+  "bugs": "https://github.com/One-Test-Org/design-cms/issues",
   "scripts": {
     "prebuild": "rm -rf public",
     "build:files": "eleventy",
