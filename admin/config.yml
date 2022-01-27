@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: dfe-design/design-history-cms
+  repo: One-Test-Org/design-cms
   branch: main # Branch to update (optional; defaults to main)
 
 # These lines should *not* be indented
