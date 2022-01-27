@@ -1,0 +1,8 @@
+{
+  "layout": "page",
+  "permalink": "{{ page.filePathStem | replace('pages/', '') }}/",
+  "tags": ["pages"],
+  "eleventyNavigation": {
+    "parent": "CMS pages"
+  }
+}

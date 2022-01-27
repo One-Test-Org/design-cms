@@ -7,15 +7,14 @@
   },
   "description": "A place for documenting GOV.UK service designs",
   "keywords": [
-    "becoming-a-teacher",
-    "govuk",
+    "DfE",
     "11ty"
   ],
   "author": "Design History CMS",
   "license": "MIT",
-  "homepage": "https://dfe-design-history-cms.netlify.app/",
-  "repository": "https://github.com/DfE-Design/design-history-cms",
-  "bugs": "https://github.com/DfE-Design/design-history-cms/issues",
+  "homepage": "https://dfe-digital-cms.netlify.app/",
+  "repository": "https://github.com/DfE-Digital/design-history-cms",
+  "bugs": "https://github.com/DfE-Digital/design-history-cms/issues",
   "scripts": {
     "prebuild": "rm -rf public",
     "build:files": "eleventy",
@@ -33,7 +32,7 @@
     "test": "standard"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0",
+    "@11ty/eleventy": "^0.12.1",
     "@11ty/eleventy-navigation": "^0.3.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
     "@ministryofjustice/frontend": "^1.0.1",
@@ -52,7 +51,7 @@
     "markdown-it-mark": "^3.0.1",
     "markdown-it-sub": "^1.0.0",
     "markdown-it-sup": "^1.0.0",
-    "markdown-it-table-of-contents": "^0.6.0",
+    "markdown-it-table-of-contents": "^0.5.2",
     "node-sass": "^7.0.0",
     "npm-run-all": "^4.1.5",
     "rollup": "^2.43.0"

@@ -1,23 +1,44 @@
 {% extends "base.njk" %}
 
 {% from "article/macro.njk" import appArticle %}
+{% from "related/macro.njk" import appRelated %}
 {% from "screenshots/macro.njk" import appScreenshots %}
 {% from "prose/macro.njk" import appProse %}
+{% from "breadcrumbs/macro.njk" import appBreadcrumbs %}
 
 {% block content %}
   {% call appArticle({
     header: {
       title: title | widont
+    },
+    footer: {
+      date: page.date,
+      modified: modified if modified
     }
   }) %}
-    {{ appProse({
-      prose: content
-    }) }}
+  <div class="govuk-grid-row">
+    <div class="govuk-grid-column-two-thirds">
+      {{ appProse({
+        prose: content
+      }) }}
 
-    {% for collection in screenshots %}
-      {{ appScreenshots(collection) }}
-    {% else %}
-      {{ appScreenshots(screenshots) if screenshots }}
-    {% endfor %}
+      {% for collection in screenshots %}
+        {{ appScreenshots(collection) }}
+      {% else %}
+        {{ appScreenshots(screenshots) if screenshots }}
+      {% endfor %}
+    </div>
+
+        {% if relatedLinks | length > 0 %}
+            <div class="govuk-grid-column-one-third">
+              {% call appRelated({
+              items: relatedLinks
+              }) %}
+             {% endcall %}
+            </div>
+        {% endif %}
+
+   
+  </div>
   {% endcall %}
 {% endblock %}
