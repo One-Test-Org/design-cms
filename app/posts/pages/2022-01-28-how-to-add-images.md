@@ -9,4 +9,4 @@ Start by making a copy of this project. The easiest way to do this is on GitHub.
 
 To start making changes, you’ll need to download the repository to your own computer. Assuming your GitHub user is `my-username`, and you called your repository `my-service-design-history`, using the Terminal you would type:
 
-![A screenshot of the index.md file in your app root folder.](/public/screenshot-2022-01-28-at-09.45.56.png "index.md")
+![A screenshot of the index.md file in your app root folder.](/screenshot-2022-01-28-at-09.45.56.png "index.md")
