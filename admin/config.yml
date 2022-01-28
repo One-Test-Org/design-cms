@@ -5,7 +5,7 @@ backend:
 
 # These lines should *not* be indented
 media_folder: "/uploads" # Media files will be stored in the repo under app/images/
-public_folder: "/public/." # The src attribute for uploaded media will begin with .
+public_folder: "/." # The src attribute for uploaded media will begin with .
 publish_mode: editorial_workflow
 
 collections:
