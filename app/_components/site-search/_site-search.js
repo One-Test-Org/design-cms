@@ -25,7 +25,7 @@ Search.prototype.fetchSearchIndex = function (indexUrl, callback) {
       if (request.status === 200) {
         const response = request.responseText
         const json = JSON.parse(response)
-        statusMessage = 'No results found'
+        statusMessage = 'No results'
         searchIndex = json
         callback(json)
       } else {
