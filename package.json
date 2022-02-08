@@ -5,7 +5,7 @@
   "engines": {
     "node": "^15.0.0"
   },
-  "description": "A place for documenting GOV.UK service designs",
+  "description": "A place for documenting DfE service design histories",
   "keywords": [
     "DfE",
     "11ty"
